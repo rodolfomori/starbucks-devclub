@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.conteudo {
+    width: 100%; /* LARGURA */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textos {
+    width: 600px;
+}
+
+h2 {
+    color: #333; /* Cor do texto */
+    font-size: 60px; /* Tamanho do texto */
+    font-weight: bold; /* Grossura do texto*/
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background: #017143;/* background -> fundo do elemento */
+    color: white;/* cor do texto */
+    border-radius: 40px;/* arredondamento da borda */
+    border: none;/* borda do elemento */
+    cursor: pointer;/* cursor do mouse */
+    padding: 10px; /* espaçamento interno */
+    margin-top: 20px;/* Cria uma margem  */
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: #018950;
+}
+
+.imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+}
+
+.circulo {
+    background: #017143;
+    height: 100%; /* Altura */
+    width: 100%; /* Largura */
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+}
+
+.logo {
+    width: 80px;
+}
+
+.imagem-copo {
+    width: 340px;
+}
+
